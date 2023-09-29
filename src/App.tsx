@@ -6,7 +6,7 @@ function App() {
         <>
             <div className="section section--landing">
                 <img className={"logo"} src={"/nintendoLogo.png"} alt="Ninendo Logo" height="92"></img>
-                <Spline scene="https://prod.spline.design/YViuqisJHgS1Wy4v/scene.splinecode"/>
+                <Spline scene="https://prod.spline.design/elv65hIGsU4k2hEY/scene.splinecode" />
                 <h1 className="landing-title">NINTENDO<br/>SWITCH</h1>
             </div>
             <div className="section">
