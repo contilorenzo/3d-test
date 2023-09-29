@@ -16,6 +16,12 @@ html{
   position: relative;
 }
 
+.section--bg{
+  background-size: 100% 100%;
+  background-image: url(/public/bg.png);
+  background-repeat: no-repeat;
+}
+
 .logo{
   position: absolute;
   top: 80px;
@@ -81,4 +87,40 @@ canvas {
   z-index: 1;
   position: relative;
   min-height: 50vh;
+}
+
+
+.spline__ripple {
+  position: absolute;
+  width: 50%;
+  border-radius: 50%;
+  background: rgba(255, 255, 255, 0.60);
+  left: 50%;
+  top: 50%;
+  aspect-ratio: 1;
+  transform: translate(-50%, -50%);
+}
+
+.spline__ripple:before,
+.spline__ripple:after {
+  content: "";
+  position: absolute;
+  border-radius: 50%;
+  background: rgba(255, 255, 255, 0.60);
+  left: 50%;
+  top: 50%;
+  aspect-ratio: 1;
+  transform: translate(-50%, -50%);
+}
+
+.spline__ripple:before {
+  width: 140%;
+}
+
+.spline__ripple:after {
+  width: 180%;
+}
+
+.pos__rel{
+  position: relative;
 }
