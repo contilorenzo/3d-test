@@ -34,6 +34,28 @@ function App() {
                     </div>
                 </div>
             </div>
+            <div className="section--coins">
+                <div className="section ">
+                    <div className="section--text">
+                        <h2 className="play">Play</h2>
+                        <h2 className="together">TOGETHER</h2>
+                    </div>
+                    <div className="spline--coins">
+                        <Spline scene="https://prod.spline.design/KLcO3x3CMmeXLLXh/scene.splinecode"/>
+                    </div>
+                </div>
+            </div>
+            <div className="section">
+                <div className="col">
+                    <Spline scene="https://prod.spline.design/27p4AXgvHV5LD3Sw/scene.splinecode"/>
+                </div>
+                <div className="col">
+                    <h2>Titolo wow</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur. Libero nunc et ultrices nulla elit neque ullamcorper
+                        ultricies.</p>
+                    <button>Compra</button>
+                </div>
+            </div>
         </>
     )
 }

@@ -16,6 +16,41 @@ html{
   position: relative;
 }
 
+.section--coins {
+  background-color: #EC4D44;
+  position: relative;
+}
+
+.section--coins > .section {
+  display: flex;
+  justify-content: center;
+}
+
+.play {
+  font-weight: 300;
+}
+
+.together {
+  font-weight: 400;
+}
+
+.section--text {
+  position: absolute;
+  text-align: center;
+  top: 200px;
+}
+
+.section--text > h2 {
+  color: #FFF;
+  text-transform: uppercase;
+  margin: 0;
+  line-height: 1;
+}
+
+.section--text canvas {
+  margin-top: 200px;
+}
+
 .section--bg{
   background-size: 100% 100%;
   background-image: url(/public/bg.png);
