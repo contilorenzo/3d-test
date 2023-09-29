@@ -15,7 +15,7 @@ function App() {
                     <p>Lorem ipsum dolor sit amet consectetur. Libero nunc et ultrices nulla elit neque ullamcorper ultricies.</p>
                     <button>Scopri di più</button>
                 </div>
-                <div className="col">
+                <div className="col" style={{ width: '800px' }}>
                     <Spline scene="https://prod.spline.design/27p4AXgvHV5LD3Sw/scene.splinecode"/>
                 </div>
             </div>
