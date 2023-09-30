@@ -26,6 +26,10 @@ html{
   justify-content: center;
 }
 
+.spline--coins {
+  margin-top: 200px;
+}
+
 .play {
   font-weight: 300;
 }
