@@ -56,6 +56,9 @@ function App() {
                     <button>Compra</button>
                 </div>
             </div>
+            <div className="section">
+                <Spline scene="https://prod.spline.design/jxuvmEOIUHKAhzD4/scene.splinecode" />
+            </div>
         </>
     )
 }
